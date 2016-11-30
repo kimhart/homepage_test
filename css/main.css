@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body {
+  background-color: white;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+header {
+  height: 80vh;
+  background-image: url(../img/office.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+h1.headline {
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.subheadline {
+  width: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+.purple-overlay {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(102, 51, 153, 0.5);
+}
+
+i.material-icons {
+  line-height: 1em;
+  display: inline;
+  vertical-align: middle;
+}
+
+button.learn-more {
+  background-color: #663399;
+  line-height: 1em;
+  border: 0;
+  color: white;
+  width: auto;
+  padding: 5px 15px 5px 20px;
+  box-shadow:  0 0 1em #343434;
+}
+
+button.learn-more.transparent {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+p.logo {
+  float: left;
+  padding: 20px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul.navbar li {
+  display: inline-flex;
+  padding: 20px;
+}
+
