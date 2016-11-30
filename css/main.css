@@ -76,3 +76,8 @@ ul.navbar li {
   padding: 20px;
 }
 
+ul.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+
