@@ -9,13 +9,23 @@ body {
 }
 
 header {
-  height: 80vh;
-  background-image: url(../img/office.jpeg);
+  height: 90vh;
+  background-image: url(../img/hero.png);
   background-size: cover;
   color: white;
+  padding-bottom: 50px;
 }
 
-h1.headline {
+.blue-overlay {
+  height: 90vh;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(78,146,185, 0.4);
+}
+
+img.headline {
   margin: 0 auto;
   margin-top: 5%;
 }
@@ -26,15 +36,6 @@ h1.headline {
   display: block;
 }
 
-.purple-overlay {
-  z-index: 1;
-  height: 80vh;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  background: rgba(102, 51, 153, 0.5);
-}
-
 i.material-icons {
   line-height: 1em;
   display: inline;
@@ -42,7 +43,7 @@ i.material-icons {
 }
 
 button.learn-more {
-  background-color: #663399;
+  background-color: #4E92B9;
   line-height: 1em;
   border: 0;
   color: white;
@@ -60,13 +61,18 @@ button.learn-more.transparent {
 
 button.learn-more.transparent:hover {
   background-color: white;
-  color: #663399;
+  color: #4E92B9;
   font-weight: 400;
 }
 
-p.logo {
+img.logo {
   float: left;
   padding: 20px;
+  width: 100px;
+}
+
+img.headline {
+  width: 30%;
 }
 
 ul.navbar {
@@ -88,7 +94,7 @@ ul.navbar li a {
 #about {
   min-height: 60vh;
   height: auto;
-  background-color: #663399;
+  background-color: #4E92B9;
   color: white;
 }
 
@@ -149,7 +155,7 @@ h4 {
 }
 
 .material-icons {
-  color: #663399;
+  color: #4E92B9;
 }
 
 .white {
@@ -171,7 +177,7 @@ h4 {
 }
 
 h4.name {
-  color: #663399;
+  color: #4E92B9;
   font-size: 18px;
   font-weight: 700;
 }
@@ -180,7 +186,7 @@ h4.name {
   text-transform: uppercase;
   padding-bottom: 10px;
   width: 100%;
-  color: #663399;
+  color: #4E92B9;
   font-weight: 400;
   padding: 5px;
 }
@@ -199,7 +205,7 @@ div.bios {
   padding: 10px 20px;
   display: flex;
   justify-content: center;
-  background-color: #663399;
+  background-color: #4E92B9;
 }
 
 #sponsors img.sponsor {
@@ -220,7 +226,10 @@ div.bios {
   text-align: left;
   margin: 0 0 20px 0;
   width: 100%;
+}
 
+#contact .contact-social {
+  text-align: left;
 }
 
 #contact input, #contact textarea {
