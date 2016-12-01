@@ -106,7 +106,7 @@ ul.navbar li a {
   width: 65%;
 }
 
-img.brochure {
+img.brochure, img.brochure2 {
   height: 50vh;
   max-height: 50vh;
   margin-top: 10%;
@@ -276,6 +276,98 @@ div.bios {
   color: #5E5E5E;
   padding: 10px 0;
 }
+
+.brochure2 {
+  display: hidden;
+}
+
+@media (max-width: 800px) {
+  header {
+    background-position: center;
+    background-size: fill;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+  .hero {
+    margin-top: 25%;
+  }
+
+  img.headline {
+    width: 50%;
+  }
+
+  img.brochure {
+    width: 90%;
+    height: auto;
+    margin-top: 40%;
+  }
+
+  #about p, #about h2 {
+    width: 90%;
+    text-align: center;
+  }
+
+  #about .content p, #about .content button {
+    text-align: center;
+    width: 85%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #about .content button {
+    margin-bottom: 40px;
+    width: auto;
+  }
+
+  #services .row {
+    margin: 20px;
+  }
+
+  .col-md-4 {
+    margin-top: 20px;
+  }
+
+  .brochure {
+    display: none;
+  }
+
+  .brochure2 {
+    display: block;
+    margin: 0 auto;
+    width: 40vh;
+  }
+  
+  #team img.headshot {
+    width: 60%;
+  }
+
+  div.social {
+    margin-bottom: 50px;
+  }
+
+  .address-container-left {
+    margin-top: 100px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
