@@ -242,6 +242,31 @@ div.bios {
   background-color: #C2C2C2;
 }
 
+#footer {
+  background-color: #1A1A1A;
+  text-align: left;
+  color: #C2C2C2;
+  padding: 60px;
+}
+
+#footer h4 {
+  color: white;
+}
+
+.links {
+    padding-bottom: 40px;
+    border-bottom: 0.3px solid #3B3B3B;
+}
+
+.col-md-12.copy {
+  padding: 0;
+}
+
+.copyright {
+  font-size: 11px;
+  color: #5E5E5E;
+  padding: 10px 0;
+}
 
 
 
