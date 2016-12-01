@@ -114,7 +114,7 @@ img.brochure {
   text-align: left;
 }
 
-#services {
+#services, #contact {
   background-color: #222222;
   color: #C2C2C2;
   height: auto;
@@ -129,7 +129,7 @@ h4 {
   font-size: 14px;
 }
 
-#services p, #team p {
+#services p, #team p, #contact p {
   width: 40%;
   margin: 0 auto;
   display: block;
@@ -196,7 +196,7 @@ div.bios {
 
 #sponsors {
   height: auto;
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: center;
   background-color: #663399;
@@ -208,6 +208,39 @@ div.bios {
   margin: 0 20px;
 }
 
+#contact {
+  padding: 80px;
+}
+
+.address-container-left h4, .address-container-right h4 {
+  text-align: left;
+}
+
+#contact p.address {
+  text-align: left;
+  margin: 0 0 20px 0;
+  width: 100%;
+
+}
+
+#contact input, #contact textarea {
+  background-color: #333333;
+  color: #C2C2C2;
+  border: none;
+}
+
+#contact button {
+  width: auto;
+  float: left;
+  background-color: #222222;
+  border: 1px solid #C2C2C2;
+  color: #C2C2C2;
+}
+
+#contact button:hover {
+  color: #222222;
+  background-color: #C2C2C2;
+}
 
 
 
