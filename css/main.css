@@ -115,7 +115,7 @@ img.brochure {
 }
 
 #services {
-  background-color: #151515;
+  background-color: #222222;
   color: #C2C2C2;
   height: auto;
   padding: 60px 0;
@@ -129,7 +129,7 @@ h4 {
   font-size: 14px;
 }
 
-#services p {
+#services p, #team p {
   width: 40%;
   margin: 0 auto;
   display: block;
@@ -155,6 +155,59 @@ h4 {
 .white {
   color: white;
 }
+
+#team {
+  background-color: white;
+  padding: 60px 0;
+}
+
+#team p.bio-text {
+  width: 90%;
+}
+
+#team img.headshot {
+  width: 90%;
+  border-radius: 50%;
+}
+
+h4.name {
+  color: #663399;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#team p.job {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  width: 100%;
+  color: #663399;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.social {
+  margin: 10px;
+  cursor: pointer;
+}
+
+div.bios {
+  margin: 0 10%;
+}
+
+#sponsors {
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #663399;
+}
+
+#sponsors img.sponsor {
+  width: 12%;
+  height: auto;
+  margin: 0 20px;
+}
+
 
 
 
