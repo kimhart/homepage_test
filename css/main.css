@@ -8,10 +8,6 @@ body {
   font-weight: 300;
 }
 
-.container-fluid {
-  padding: 0;
-}
-
 header {
   height: 80vh;
   background-image: url(../img/office.jpeg);
@@ -32,7 +28,7 @@ h1.headline {
 
 .purple-overlay {
   z-index: 1;
-  height: 100%;
+  height: 80vh;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -51,13 +47,21 @@ button.learn-more {
   border: 0;
   color: white;
   width: auto;
-  padding: 5px 15px 5px 20px;
+  padding: 10px 15px;
   box-shadow:  0 0 1em #343434;
 }
 
 button.learn-more.transparent {
   border: 1px solid white;
   border-radius: 5px;
+  box-shadow: none;
+  margin-top: 20px;
+}
+
+button.learn-more.transparent:hover {
+  background-color: white;
+  color: #663399;
+  font-weight: 400;
 }
 
 p.logo {
@@ -80,4 +84,78 @@ ul.navbar li a {
   text-decoration: none;
   color: white;
 }
+
+#about {
+  min-height: 60vh;
+  height: auto;
+  background-color: #663399;
+  color: white;
+}
+
+#about h2 {
+  margin-top: 10%;
+}
+
+#about p {
+  width: 65%;
+}
+
+img.brochure {
+  height: 50vh;
+  max-height: 50vh;
+  margin-top: 10%;
+}
+
+.layers {
+  text-align: right;
+}
+
+.content {
+  text-align: left;
+}
+
+#services {
+  background-color: #151515;
+  color: #C2C2C2;
+  height: auto;
+  padding: 60px 0;
+}
+
+#services h2, h4 {
+  color: white;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+#services p {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.service-list {
+   margin: 50px;
+}
+
+
+#services .service-list p {
+  width: 60%;
+}
+
+.intro {
+  margin: 20px 0 40px;
+}
+
+.material-icons {
+  color: #663399;
+}
+
+.white {
+  color: white;
+}
+
+
+
 
