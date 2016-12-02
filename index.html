@@ -176,12 +176,12 @@
           </div>
           <div class="row">
             <div class="col-md-6 form-container">
-              <form>
+              <form id="contact-form" role="form" method="POST" data-toggle="validator">
                 <div class="form-group">
                   <input type="text" class="form-control" placeholder="Name">
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
                 </div>
                 <div class="form-group">
                   <input type="text" class="form-control" placeholder="Subject">
@@ -190,8 +190,9 @@
                   <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Message"></textarea>
                 </div>
                 <div class="form-group">
-                  <button type="submit" class="btn btn-primary form-button form-control">Submit</button>
+                  <button type="submit" class="btn btn-primary form-button form-control"  onclick="submitForm()">Submit</button>
                 </div>
+                <div class="help-block with-errors"></div>
               </form>
             </div>
             <div class="col-md-3 address-container-left">
